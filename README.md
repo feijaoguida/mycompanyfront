@@ -1,6 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é um projeto React utilizando o Framwork [Next.js](https://nextjs.org/).
 
-## Getting Started
+## Descrição
+Foi utilizado o Framework NextJs, para criação da aplicação, bem como o ChakraUi como Framework de stilização. O Chakra Ui é um framework bastante completo, para criação de layoutes, tem uma documentação boa, alguns exemplos. O Chakra Ui já dispobiliza algums ferramentas prontas que dispensa instalação de bibliotecas de terceiro, tal como o toast, Modal, AlertDialog. 
+
+O projeto online pode ser acesso no link 
+
+O Backend do projeto esta [aqui](https://github.com/feijaoguida/mycompanyback)
+
+## Tecnologia
+- React
+- TypesCript
+- NextJs
+- ChakraUI
+
+## Iniciando.
+Faça um gitclone do projeto.
+
+Ajuste o endereço da api na pasta de serviços em src/pages/services/api.ts
 
 First, run the development server:
 
@@ -12,27 +28,12 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+abra [http://localhost:3000](http://localhost:3000) com o seu navegador e veja a magica acontecer.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Sobre Mim
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Author - [Roseweltty B. Guida](https://linktr.ee/rbgsolucoes)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This is a challenge by [Coodesh](https://coodesh.com/)
