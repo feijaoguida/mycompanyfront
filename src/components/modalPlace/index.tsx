@@ -1,7 +1,6 @@
-import { AuthContext } from "@/contexts/AuthContext";
 import { api } from "@/pages/services/apiCliente";
 import { Flex, FormControl, FormLabel, Input, Button, Modal, ModalOverlay, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, useDisclosure, Divider, useToast  } from "@chakra-ui/react";
-import { FormEvent, useContext, useState, useEffect } from "react";
+import { FormEvent, useState, useEffect } from "react";
 import { modalPlaceProps, placeProps} from './interfaces/interfaces'
 
 
