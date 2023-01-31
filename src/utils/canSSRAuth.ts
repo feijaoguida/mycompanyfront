@@ -1,6 +1,6 @@
 import { GetServerSideProps, GetServerSidePropsContext, GetServerSidePropsResult } from 'next'
 import { parseCookies, destroyCookie } from 'nookies'
-import { AuthTokenError } from '@/pages/services/erros/AuthTokenError';
+import { AuthTokenError } from '@/pages/api/erros/AuthTokenError';
  
 
 export function canSSRAuth<P extends { [key: string]: any; }>(fn: GetServerSideProps<P>) {

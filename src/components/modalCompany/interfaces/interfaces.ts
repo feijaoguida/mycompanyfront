@@ -1,5 +1,6 @@
+import { placeProps } from "@/components/modalPlace/interfaces/interfaces"
 import { UserProps } from "@/contexts/interfaces/typesContext"
-import { Place } from "@/pages/place/interface/interface"
+
 
 export interface modalCompanyProps {
   isOpen: boolean,
@@ -20,5 +21,5 @@ export interface companyProps {
     cnpj: string | undefined,
     user_id: string | undefined
     user?: UserProps
-    place?: Place[]
+    place?: placeProps[]
 }

@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useEffect, useState} from "react";
 import { destroyCookie, setCookie, parseCookies } from 'nookies'
 import Router from "next/router";
-import { api } from "@/pages/services/apiCliente";
+import { api } from "@/pages/api/apiCliente";
 import { useToast } from "@chakra-ui/toast";
 import { AuthContextData, AuthProviderProps, SignInProps, SignUpProps, UserProps } from './interfaces/typesContext'
 

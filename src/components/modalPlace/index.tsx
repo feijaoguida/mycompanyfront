@@ -1,10 +1,10 @@
-import { api } from "@/pages/services/apiCliente";
+import { api } from "@/pages/api/apiCliente";
 import { Flex, FormControl, FormLabel, Input, Button, Modal, ModalOverlay, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, useDisclosure, Divider, useToast  } from "@chakra-ui/react";
 import { FormEvent, useState, useEffect } from "react";
 import { modalPlaceProps, placeProps} from './interfaces/interfaces'
 
 
-export function ModalPlace({isOpen, onClose, size, isEdit , selectPlace, idCompany}: modalPlaceProps) {
+export default function ModalPlace({isOpen, onClose, size, isEdit , selectPlace, idCompany}: modalPlaceProps) {
   const [name, setName] = useState<string>('')
   const [stret, setStret] = useState<string>('')
   const [theNumber, setTheNumber] = useState<string>('')

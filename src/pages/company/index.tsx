@@ -1,13 +1,13 @@
 import {ModalCompany} from "@/components/modalCompany";
 import Link from "next/link"
-import { companiesProps, companyProps } from "@/components/modalCompany/interfaces/interfaces";
+import { companyProps } from "@/components/modalCompany/interfaces/interfaces";
 import TopBar from "@/components/topbar";
 import { AuthContext } from "@/contexts/AuthContext";
 import { canSSRAuth } from "@/utils/canSSRAuth";
 import { Flex, Heading, Button, useDisclosure, Table, Tbody, Td, Th, Thead, Tr, Image, IconButton, NumberDecrementStepper, NumberIncrementStepper, NumberInput, NumberInputField, NumberInputStepper, Select, Tooltip, Box   } from "@chakra-ui/react";
 import React, { useState, useEffect, useContext } from "react";
-import { setupAPIClient } from "../services/api";
-import { api } from "../services/apiCliente";
+import { setupAPIClient } from "../api/api";
+import { api } from "../api/apiCliente";
 import { ModalDelete } from "@/components/modalDelete";
 
 export default function Company() {

@@ -1,11 +1,11 @@
-import {ModalPlace} from "@/components/modalPlace";
+import ModalPlace from "@/components/modalPlace";
 import { placeProps } from "@/components/modalPlace/interfaces/interfaces";
 import TopBar from "@/components/topbar";
 import { canSSRAuth } from "@/utils/canSSRAuth";
 import { Flex, Heading, Button, useDisclosure, Table, Tbody, Td, Th, Thead, Tr, Image, Box   } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router"
-import { api } from "../services/apiCliente";
+import { api } from "../api/apiCliente";
 import { ModalDelete } from "@/components/modalDelete";
 
 export default function Place() {
