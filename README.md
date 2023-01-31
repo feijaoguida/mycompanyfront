@@ -3,7 +3,7 @@ Este é um projeto React utilizando o Framwork [Next.js](https://nextjs.org/).
 ## Descrição
 Foi utilizado o Framework NextJs, para criação da aplicação, bem como o ChakraUi como Framework de stilização. O Chakra Ui é um framework bastante completo, para criação de layoutes, tem uma documentação boa, alguns exemplos. O Chakra Ui já dispobiliza algums ferramentas prontas que dispensa instalação de bibliotecas de terceiro, tal como o toast, Modal, AlertDialog. 
 
-O projeto online pode ser acesso no link 
+O projeto online pode ser acesso [https://hubmycompany.vercel.app/](https://hubmycompany.vercel.app/) 
 
 O Backend do projeto esta [aqui](https://github.com/feijaoguida/mycompanyback)
 
